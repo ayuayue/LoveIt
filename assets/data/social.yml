@@ -593,3 +593,10 @@ rss:
   Newtab: true
   Icon:
     Class: fas fa-rss fa-fw
+
+suji:
+  Weight: 120
+  Title: Notes
+  Url: https://www.caoayu.top/
+  Icon:
+    Class: fa fa-sticky-note
