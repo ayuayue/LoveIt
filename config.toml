@@ -20,10 +20,10 @@
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
   # 网站标题, 用于 Open Graph 和 Twitter Cards
-  title = "My cool site"
+  title = "一个重新开始的Hugo博客"
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
-  description = "This is my cool site"
+  description = "一个简洁、优雅且高效的 Hugo博客-分享知识，分享生活，个人，程序，人生，哲学..."
   # website images for Open Graph and Twitter Cards
   # 网站图片, 用于 Open Graph 和 Twitter Cards
   images = []
@@ -45,7 +45,7 @@
       logo = ""
       # title name
       # 标题名称
-      name = "My cool site"
+      name = "一个重新开始的Hugo博客"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
@@ -54,7 +54,7 @@
       post = ""
       # whether to use typeit animation for title name
       # 是否为标题显示打字机动画
-      typeit = false
+      typeit = true
 
   # Footer config
   # 页面底部信息配置
@@ -77,10 +77,10 @@
     since = 2022
     # ICP info only in China (HTML format is supported)
     # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
-    icp = ""
+    icp = "<a href='https://beian.miit.gov.cn' target='_blank'>豫ICP备19012822号-3</a>"
     # license info (HTML format is supported)
     # 许可协议信息 (支持 HTML 格式)
-    license= ""
+    license= "<a rel='license' href='http://creativecommons.org/licenses/by-nc-sa/4.0/'><img alt='知识共享许可协议' style='border-width:0' src='https://i.creativecommons.org/l/by-nc-sa/4.0/80x15.png' /></a><br />本作品采用<a rel='license' href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。"
 
   # Section (all posts) page config
   # Section (所有文章) 页面配置
@@ -113,7 +113,7 @@
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "My cool site"
+    title = "一个重新开始的Hugo博客"
     # whether to omit favicon resource links
     # 是否隐藏网站图标资源链接
     noFavicon = false
@@ -133,7 +133,7 @@
   # Search config
   # 搜索配置
   [params.search]
-    enable = false
+    enable = true
     # type of search engine ["lunr", "algolia"]
     # 搜索引擎的类型 ["lunr", "algolia"]
     type = "lunr"
@@ -142,7 +142,7 @@
     contentLength = 4000
     # placeholder of the search bar
     # 搜索框的占位提示语
-    placeholder = ""
+    placeholder = "请输入关键字进行搜索"
     # max number of results length
     # 最大结果数目
     maxResultLength = 10
@@ -175,13 +175,13 @@
       gravatarEmail = ""
       # URL of avatar shown in home page
       # 主页显示头像的 URL
-      avatarURL = ""
+      avatarURL = "/images/avatar.png"
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
-      title = ""
+      title = "一个重新开始的Hugo博客"
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "This is my cool site"
+      subtitle = "一个简洁、优雅且高效的 Hugo博客-分享知识，分享生活，个人，程序，人生，哲学"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = true
@@ -331,7 +331,7 @@
     # KaTeX mathematical formulas config (KaTeX https://katex.org/)
     # KaTeX 数学公式配置 (KaTeX https://katex.org/)
     [params.page.math]
-      enable = false
+      enable = true
       # default inline delimiter is $ ... $ and \( ... \)
       # 默认行内定界符是 $ ... $ 和 \( ... \)
       inlineLeftDelimiter = ""
@@ -381,7 +381,7 @@
       Pinterest = false
       Tumblr = false
       HackerNews = true
-      Reddit = false
+      Reddit = true
       VK = false
       Buffer = false
       Xing = false
@@ -391,7 +391,7 @@
       Flipboard = false
       Weibo = true
       Blogger = false
-      Baidu = false
+      Baidu = true
       Odnoklassniki = false
       Evernote = false
       Skype = false
@@ -400,7 +400,7 @@
     # Comment config
     # 评论系统设置
     [params.page.comment]
-      enable = false
+      enable = true
       # Disqus comment config (https://disqus.com/)
       # Disqus 评论系统设置 (https://disqus.com/)
       [params.page.comment.disqus]
@@ -473,9 +473,9 @@
       # utterances comment config (https://utteranc.es/)
       # utterances comment 评论系统设置 (https://utteranc.es/)
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
-        repo = ""
+        repo = "ayuayue/blogtalk"
         issueTerm = "pathname"
         label = ""
         lightTheme = "github-light"
@@ -548,7 +548,7 @@
     bing = ""
     yandex = ""
     pinterest = ""
-    baidu = ""
+    baidu = "WE21SS2cy5"
 
   # Site SEO config
   # 网站 SEO 配置
@@ -566,7 +566,7 @@
     enable = false
     # Google Analytics
     [params.analytics.google]
-      id = ""
+      id = "UA-163761428-1"
       # whether to anonymize IP
       # 是否匿名化用户 IP
       anonymizeIP = true
@@ -586,7 +586,7 @@
   # Cookie consent config
   # Cookie 许可配置
   [params.cookieconsent]
-    enable = false
+    enable = true
     # text strings used for Cookie consent banner
     # 用于 Cookie 许可横幅的文本字符串
     [params.cookieconsent.content]

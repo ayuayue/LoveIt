@@ -1,0 +1,31 @@
+{{/*
+      ## Video mp4 AVC
+
+      ### Params:
+  
+      - `src`
+  
+        required param
+        you can extract from video url
+        url format "https://cdn.jsdelivr.net/gh/ayuayue/cdn/img/picgo-typora-1.mp4"
+  
+      ### Examples:
+  
+      - Simple
+
+    {{< video src="https://cdn.jsdelivr.net/gh/ayuayue/cdn/img/picgo-typora-1.mp4" >}}
+
+*/}}
+
+
+<iframe src="{{ .Get "src" }}" border="0" frameborder="no" framespacing="0" allowfullscreen="true" id="video"></iframe>
+
+<script>
+  var main = document.getElementById("main")
+  console.log(main)
+  var width = main.offsetWidth
+  var ifm = document.getElementById("video")
+  console.log(ifm)
+  ifm.width = width
+  ifm.height = 500
+</script>
