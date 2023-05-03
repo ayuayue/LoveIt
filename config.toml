@@ -20,7 +20,7 @@
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
   # 网站标题, 用于 Open Graph 和 Twitter Cards
-  title = "一个重新开始的Hugo博客"
+  title = ""
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
   description = "一个简洁、优雅且高效的 Hugo博客-分享知识，分享生活，个人，程序，人生，哲学..."
@@ -45,16 +45,16 @@
       logo = ""
       # title name
       # 标题名称
-      name = "一个重新开始的Hugo博客"
+      name = "🤗🥰🤔"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
-      pre = ""
+      pre = "😊"
       # you can add extra information after the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之后添加其他信息, 例如图标
-      post = ""
+      post = "😊"
       # whether to use typeit animation for title name
       # 是否为标题显示打字机动画
-      typeit = true
+      typeit = false
 
   # Footer config
   # 页面底部信息配置
@@ -113,7 +113,7 @@
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
     # 当添加到 iOS 主屏幕或者 Android 启动器时的标题, 覆盖默认标题
-    title = "一个重新开始的Hugo博客"
+    title = "一个全新的Hugo博客"
     # whether to omit favicon resource links
     # 是否隐藏网站图标资源链接
     noFavicon = false
@@ -178,10 +178,10 @@
       avatarURL = "/avatar.png"
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
-      title = "一个重新开始的Hugo博客"
+      title = "我的博客"
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
-      subtitle = "一个简洁、优雅且高效的 Hugo博客-分享知识，分享生活，个人，程序，人生，哲学"
+      subtitle = "hello 👋，我是 caoayu ❄️，一名普通的开发工程师"
       # whether to use typeit animation for subtitle
       # 是否为副标题显示打字机动画
       typeit = true
