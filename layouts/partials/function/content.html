@@ -1,5 +1,6 @@
 {{- $content := .Content -}}
-
+{{ $raw := .RawContent }}
+{{ $page := .Page }}
 {{- if $content -}}
 
     {{- if .Ruby -}}
@@ -14,14 +15,13 @@
         {{- $content = partial "function/fontawesome.html" $content -}}
     {{- end -}}
 
-    {{- if .Wiki -}}
-        {{- $content = partial "function/wiki.html" $content -}}
-    {{- end -}}
-
     {{- $content = partial "function/checkbox.html" $content -}}
 
     {{- $content = partial "function/escape.html" $content -}}
 
+    {{- $content = dict "Content" .Content |  partial "function/wiki.html"   -}}
+
 {{- end -}}
+
 
 {{- return $content -}}
